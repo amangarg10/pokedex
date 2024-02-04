@@ -1,38 +1,56 @@
-.App {
+.pokemon-list-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  /* Light gray background */
+  border-radius: 12px;
+  /* Slightly rounded corners */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  /* Enhanced shadow */
+  transition: box-shadow 0.3s;
+  /* Smooth shadow transition */
+}
+
+.pokemon-list-container:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  /* Shadow grows on hover */
+}
+
+.pokemon-list-title {
+  font-size: 32px;
+  /* Larger title */
+  margin-bottom: 24px;
+  /* Increased spacing */
   text-align: center;
+  color: #333;
+  /* Dark gray title */
+  text-transform: uppercase;
+  /* Uppercase title */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pokemon-list {
+  list-style-type: none;
+  padding: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pokemon-list-item {
+  margin-bottom: 16px;
+  /* Slightly increased margin */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pokemon-link {
+  color: #007bff;
+  /* Blue link */
+  text-decoration: none;
+  transition: color 0.3s;
+  /* Smooth color transition */
+  font-weight: bold;
+  /* Bold font for links */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pokemon-link:hover {
+  color: #0056b3;
+  /* Darker blue on hover */
+  text-decoration: underline;
 }

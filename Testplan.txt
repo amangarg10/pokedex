@@ -1,0 +1,9 @@
+I have not tested sites before; normally I just play around with them. I did some research 
+and learned that Jest and React Test Library provide pretty comprehensive testing. 
+
+I would run the following tests. 
+1) Check 10 randomly chosen Pokemon appear on the list of Pokemon by checking that the Pokemons name appears in the document
+1b) Click on the Pokemons name for each of the 10 Pokemon and ensure that the details page contains the Pokemons name 
+2) Use the search feature and ensure the same 10 appear when searched
+2b) Click on the Pokemons name for each of the 10 Pokemon after searching and ensure that the details page contains the Pokemons name 
+
